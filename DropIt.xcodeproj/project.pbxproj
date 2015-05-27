@@ -14,6 +14,8 @@
 		29EC15661B15DFDF0006F4D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EC15651B15DFDF0006F4D2 /* Images.xcassets */; };
 		29EC15691B15DFDF0006F4D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29EC15671B15DFDF0006F4D2 /* LaunchScreen.xib */; };
 		29EC15751B15DFDF0006F4D2 /* DropItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EC15741B15DFDF0006F4D2 /* DropItTests.m */; };
+		29EC15801B160C830006F4D2 /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EC157F1B160C830006F4D2 /* DropitBehavior.m */; };
+		29EC15831B161EB20006F4D2 /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EC15821B161EB20006F4D2 /* BezierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		29EC156E1B15DFDF0006F4D2 /* DropItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EC15731B15DFDF0006F4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29EC15741B15DFDF0006F4D2 /* DropItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropItTests.m; sourceTree = "<group>"; };
+		29EC157E1B160C830006F4D2 /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
+		29EC157F1B160C830006F4D2 /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
+		29EC15811B161EB20006F4D2 /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		29EC15821B161EB20006F4D2 /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 			children = (
 				29EC155C1B15DFDF0006F4D2 /* AppDelegate.h */,
 				29EC155D1B15DFDF0006F4D2 /* AppDelegate.m */,
+				29EC15811B161EB20006F4D2 /* BezierPathView.h */,
+				29EC15821B161EB20006F4D2 /* BezierPathView.m */,
+				29EC157E1B160C830006F4D2 /* DropitBehavior.h */,
+				29EC157F1B160C830006F4D2 /* DropitBehavior.m */,
 				29EC155F1B15DFDF0006F4D2 /* ViewController.h */,
 				29EC15601B15DFDF0006F4D2 /* ViewController.m */,
 				29EC15621B15DFDF0006F4D2 /* Main.storyboard */,
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				29EC15611B15DFDF0006F4D2 /* ViewController.m in Sources */,
+				29EC15801B160C830006F4D2 /* DropitBehavior.m in Sources */,
+				29EC15831B161EB20006F4D2 /* BezierPathView.m in Sources */,
 				29EC155E1B15DFDF0006F4D2 /* AppDelegate.m in Sources */,
 				29EC155B1B15DFDF0006F4D2 /* main.m in Sources */,
 			);
